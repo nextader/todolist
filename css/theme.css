@@ -1,0 +1,59 @@
+/* ====== MODE SOMBRE ====== */
+body.dark-mode {
+    background-color: #121212 !important;
+    color: #e0e0e0;
+}
+
+body.dark-mode .card,
+body.dark-mode .list-group-item,
+body.dark-mode input,
+body.dark-mode .form-control,
+body.dark-mode .btn,
+body.dark-mode .alert {
+    background-color: #1e1e1e !important;
+    color: #e0e0e0 !important;
+    border-color: #444 !important;
+}
+
+/* Placeholder plus clair */
+body.dark-mode input::placeholder,
+body.dark-mode .form-control::placeholder {
+    color: #aaa;
+}
+
+/* Boutons de filtre */
+body.dark-mode .btn-outline-primary {
+    color: #e0e0e0 !important;
+    border-color: #555 !important;
+}
+body.dark-mode .btn-outline-primary.active,
+body.dark-mode .btn-outline-primary:hover {
+    background-color: #0d6efd !important;
+    color: white !important;
+}
+
+/* Bouton toggle thème */
+body.dark-mode .btn-outline-secondary {
+    color: #ccc !important;
+    border-color: #666 !important;
+}
+
+/* Checkbox cochée */
+body.dark-mode .form-check-input:checked {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+/* Alertes Bootstrap */
+body.dark-mode .alert-danger {
+    background-color: #66171a !important;
+    color: #ffb3b3 !important;
+    border-color: #a94442 !important;
+}
+
+/* Pour que tous les liens, textes secondaires, etc. restent lisibles */
+body.dark-mode a,
+body.dark-mode small,
+body.dark-mode .text-muted {
+    color: #ccc !important;
+}

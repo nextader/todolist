@@ -1,1 +1,2 @@
-# todolist
+# TodoList
+Javascript / CSS / HTML
